@@ -1,0 +1,25 @@
+body{
+    display: flex;
+}
+.header{
+    background-color: black;
+    height: 50px;
+    width: 1350px;
+    position: fixed;
+}
+.header .header-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .header-container .nav{
+    margin-top: 12px;
+
+}
+
+.header .header-container .nav a{
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+    
+}
